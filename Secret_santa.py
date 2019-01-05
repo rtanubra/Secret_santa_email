@@ -1,3 +1,17 @@
+"""
+Takes names and emails from the input to obtain the selection.
+Module input:
+1. names and emails
+    inputs/names_emails.csv 
+        Name,email
+        name1,email1
+        name2,email2
+        name3,email3
+2. Dictionaries:
+    2a.Selection dictionary: {santa:kid}
+    2b.Contact list: {name:email}
+
+"""
 def obtain_names_emails_from_file():
     import pandas as pd 
     df = pd.read_csv("inputs/names_emails.csv")
@@ -24,5 +38,9 @@ def randomize_names(my_dict,seed = 42):
         my_selection[santa] = possible_kid
         kids.remove(possible_kid)
     return my_selection
+
+def run_function(seed=42):
+    contact_list = obtain_names_emails_from_file()
+    selection = randomize_names(my_dict,seed)
 
 print(randomize_names(obtain_names_emails_from_file()))
