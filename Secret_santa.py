@@ -39,8 +39,3 @@ def randomize_names(my_dict,seed = 42):
         kids.remove(possible_kid)
     return my_selection
 
-def run_function(seed=42):
-    contact_list = obtain_names_emails_from_file()
-    selection = randomize_names(my_dict,seed)
-
-print(randomize_names(obtain_names_emails_from_file()))
