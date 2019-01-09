@@ -38,4 +38,3 @@ def randomize_names(my_dict,seed = 42):
         my_selection[santa] = possible_kid
         kids.remove(possible_kid)
     return my_selection
-
