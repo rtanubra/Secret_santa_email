@@ -13,11 +13,8 @@ Necessary inputs and creation.
         File should look like the following:
 
             Name,Email
-
             name1,email1
-
             name2,email2
-
             name3,email3
 
         /inputs/user_email.txt
