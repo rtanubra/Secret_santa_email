@@ -48,7 +48,9 @@ Creating a Gmail Account:
 3. Store email username and password
     /inputs/user_email.txt
     should take the following format below. 
+    
         user_email@gmail.com
         password
+        
     See sample_inputs/user_email.txt for sample
     
