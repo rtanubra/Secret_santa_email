@@ -20,7 +20,6 @@ Necessary inputs and creation.
         /inputs/user_email.txt
 
             user_email@gmail.com
-
             password
 
     1.-Note see sample inputs for "sample inputs to create"
