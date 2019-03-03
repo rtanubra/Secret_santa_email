@@ -47,7 +47,8 @@ Creating a Gmail Account:
         - turn this on. Run the app. THEN for your own safety turn this back off.
 3. Store email username and password
     /inputs/user_email.txt
-    should take the following format below. See sample_inputs/user_email.txt for sample
+    should take the following format below. 
         user_email@gmail.com
         password
+    See sample_inputs/user_email.txt for sample
     
